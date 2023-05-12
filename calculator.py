@@ -1,0 +1,5 @@
+p=float(input("enter the principal: "))
+t=float(input("enter the time: "))
+r=float(input("enter the rate: "))
+ci=p*(pow((1+r/100),t))
+print(ci)
